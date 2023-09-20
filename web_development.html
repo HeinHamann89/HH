@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+    <title>Web Development</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="./index" class="logo">HH</a>
+      <a href="./about">Mission</a>
+      <a href="./news">Blog</a>
+      <a href="./portfolio">Portfolio</a>
+      <div class="dropdown">
+        <button class="dropbtn">Services
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./web_development"><iconify-icon icon="twemoji:atom-symbol"></iconify-icon> Web Development</a>
+          <a href="./design"><iconify-icon icon="twemoji:writing-hand"></iconify-icon> Design</a>
+          <a href="./seo"><iconify-icon icon="twemoji:bullseye"></iconify-icon> SEO</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      <a href="./contact" class="navbarCTA">CONTACT</a>
+        <!--
+        <div class="dark-toggle">
+        <a href="#dark" onclick="darkMode()" id="modeToggle">Light mode</a>
+        </div>
+      -->
+    </div>
+  </header>
+
+<section>
+    <div class="homepage-hero">
+      <p class="hero-emoji"><iconify-icon icon="twemoji:atom-symbol"></iconify-icon></p>
+      <br>
+      <h1>Web Development</h1>
+      <h2 class="web-development-gradient">Your Website. Your Way.</h2>
+      <br>
+      <p>Let's start with the...</p>
+      <br>
+      <span class="tag-cloud"><a href="#why" style="text-decoration: none; color: black;">Why</a></span>&nbsp;<span class="tag-cloud"><a href="#how" style="text-decoration: none; color: black;">How</a></span>&nbsp;<span class="tag-cloud"><a href="#who" style="text-decoration: none; color: black;">Who</a></span>&nbsp;<span class="tag-cloud"><a href="#FAQ" style="text-decoration: none; color: black;">FAQ</a></span>
+    </div>
+    <div class="homepage-container">
+      <span class="tag-cloud" id="#why">Why work with us</span>
+      <h2>Reasons to work together</h2>
+      <br>
+      <p>Your website must be fast, effective in generating leads and creative enough to draw attention. That's we do.</p>
+      <br>
+      <h3>We will...</h3>
+      <br>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> setup your domain and hosting</p>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> design and build your website</p>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> optimise it for lead gen and SEO</p>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> manage your website upkeep</p>
+    </div>
+    <div class="homepage-container">
+      <span class="tag-cloud" id="how">How we work</span>
+      <h2>The process is simple...</h2>
+    <br>
+    <p>We work in three easy steps to help you get from idea to production.</p>
+    <br>
+    <div style="overflow-x:auto;">
+      <table>
+        <tr>
+          <th>Learning</th>
+          <th>Building</th>
+          <th>Handover</th>
+        </tr>
+        <tr>
+          <td>1 week</td>
+          <td>8 weeks (est)</td>
+          <td>2 weeks</td>
+        </tr>
+        <tr>
+          <td>We learn all about your company, product, offering and market fit</td>
+          <td>Building commences, but you'll be kept updated with our progress</td>
+          <td>You get the keys to shiny new website and we teach you how it works 🔑</td>
+        </tr>
+      </table>
+    </div>
+    </div>
+    <div class="flex-container">
+      <div style="flex-grow: 1;"><iconify-icon icon="twemoji:writing-hand" class="flex-emoji"></iconify-icon><h2>Design</h2>
+        <br>
+        <br>
+      <p>It all starts with an idea, and getting it down on paper. We'll draw, visualise and map out what you want.</p></div>
+      <div style="flex-grow: 1;"><iconify-icon icon="twemoji:hammer-and-wrench" class="flex-emoji"></iconify-icon><h2>Build</h2>
+        <br>
+        <br>
+        <p>Building time will be scoped, amendments communicated and your project will be delivered and LIVE on time.</p></div>
+      <div style="flex-grow: 1;"><iconify-icon icon="twemoji:gear" class="flex-emoji"></iconify-icon><h2>Maintain</h2>
+        <br>
+        <br>
+        <p>Websites evolve, and you will always have access to changes when and where you request and require.</p></div>  
+    </div>
+    <br>
+    <div class="homepage-container">
+      <span class="tag-cloud" id="who">Who worked with us</span>
+      <h2>Performance based websites</h2>
+    <br>
+    <p>See the <a href="./portfolio.html" style="color: rgb(255, 217, 131); text-decoration: none;">full portfolio</a> here</p>
+    <br>
+    </div>
+    <div class="flex-container">
+      <div style="flex-grow: 1;"><h2>Focus Group</h2>
+        <br>
+        <br>
+      <a href="#" style="background-color: rgb(255, 217, 131); padding: 4px 10px; color: #000; border-radius: 4px; text-decoration: none;">See Website</a></div>
+      <div style="flex-grow: 1;"><h2>Outlier Ventures</h2>
+        <br>
+        <br>
+        <a href="#" style="background-color: rgb(255, 217, 131); padding: 4px 10px; color: #000; border-radius: 4px; text-decoration: none;">See Website</a></div>
+      <div style="flex-grow: 1;"><h2>OZOW Pay</h2>
+        <br>
+        <br>
+        <a href="#" style="background-color: rgb(255, 217, 131); padding: 4px 10px; color: #000; border-radius: 4px; text-decoration: none;">See Website</a></div>  
+    </div>
+    <div class="accordion-container">
+    <span class="tag-cloud" id="FAQ">Frequently asked questions</span>
+    <h2>All your FAQs</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(1)">
+              1. How much does a website cost?
+          </div>
+          <div class="accordion-content" id="content-1">
+              This depends on the website you want. Generally, a web developer could charge a once off fee ranging from £100 to £100,000. But there are long term costs to consider, like hosting, domain name, SSL certificates. I wrote a detailed article about it here. <a href="blog-understanding-the-true-cost-of-a-website" style="color: rgb(255, 217, 131)">Read article</a>
+          </div>
+      </div>
+      <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(2)">
+              2. How long does it take to build a website?
+          </div>
+          <div class="accordion-content" id="content-2">
+              If you are using a no-code builder like Wix or Wordpress with plugins, it can be done in a few days. But no-code builders have limitations of course. If you want a custom built website, it can take weeks to get right but can be made to your exact needs.
+          </div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-header" onclick="toggleAccordion(3)">
+            3. Is Wordpress or Wix good?
+        </div>
+        <div class="accordion-content" id="content-3">
+            Yes, they are perfectly fine for most basic websites. According to Manaferra, WordPress powers 43.2% of the web. They offer quick and easy access to website creating for beginners and small companies. They are also great platforms for having SEO tools and CRM integrations built in from the start. But there are limitations to what they can do.
+        </div>
+    </div>
+    </div>
+    </div>
+
+</section>
+<footer>Built with <iconify-icon icon="twemoji:red-heart"></iconify-icon> by <span style="font-weight: 900;">HH</span></footer>
+<script src="script.js"></script>
+</body>
+</html>

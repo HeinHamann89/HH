@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <title>Hey! You're on HH</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="./index" class="logo">HH</a>
+      <a href="./about">Mission</a>
+      <a href="./news">Blog</a>
+      <a href="./portfolio">Portfolio</a>
+      <div class="dropdown">
+        <button class="dropbtn">Services
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./web_development"><iconify-icon icon="twemoji:atom-symbol"></iconify-icon> Web Development</a>
+          <a href="./design"><iconify-icon icon="twemoji:writing-hand"></iconify-icon> Design</a>
+          <a href="./seo"><iconify-icon icon="twemoji:bullseye"></iconify-icon> SEO</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      <a href="./contact" class="navbarCTA">CONTACT</a>
+      <!--
+        <div class="dark-toggle">
+        <a href="#dark" onclick="darkMode()" id="modeToggle">Light mode</a>
+        </div>
+      -->
+    </div>
+  </header>
+
+  <!--
+<section class="promo-banner">
+  <div>
+    <a href="#">Landing pages designed to be beautiful and efficient. Learn more</a>
+  </div>
+</section>
+-->
+<main>
+<section>
+    <div class="homepage-hero">
+      <picture>
+        <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.webp" type="image/webp">
+        <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f636_200d_1f32b_fe0f/512.gif" alt="😶" width="100" height="100">
+      </picture>
+      <h1 class="hero-h1">Your <a href="./web_development" class="hero-website">website</a>, <a href="./design" class="hero-design">design</a> and <a href="./seo" class="hero-seo">seo</a>. All together.</h1>
+      <br>
+      <p class="hero-p">On a mission to build fast, UX friendly websites that users love and will generate leads <iconify-icon icon="twemoji:sparkles"></iconify-icon></p>
+      <br>
+      <br>
+      <a href="./about" class="hero-cta">THE MISSION</a>&nbsp;&nbsp;<a href="./contact" class="hero-cta" id="hero-cta-right">GET STARTED</a>
+      <br>
+      <br>
+    </div>
+    <div class="homepage-container">
+      <h2>Together we will...</h2>
+      <br>
+      <p>build engaging, easy-to-use websites and applications. Let's make your digital ideas, reality.</p>
+      <br>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> Desing your dream wireframe</p>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> Buid UX friendly websites</p>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> Write engaging copy</p>
+      <p><iconify-icon icon="twemoji:check-mark-button"></iconify-icon> Generate high quality MQLs</p>
+    </div>
+    <div class="homepage-container">
+      <h2>Together we can...</h2>
+      <br>
+      <p>work on these areas to help your digital space grow and flourish.</p>
+      <br>
+      <div class="scrollmenu">
+        <a href="./web_development">👨‍💻&nbsp;&nbsp;Web Development</a>
+        <a href="./seo">🔎&nbsp;&nbsp;SEO</a>
+        <a href="./design">✏️&nbsp;&nbsp;Design</a>
+        <a href="#">🔗&nbsp;&nbsp;Landing Page <span class="tbc-note">TBC</span></a>
+        <a href="#">📊&nbsp;&nbsp;Data Visualization <span class="tbc-note">TBC</span></a>
+        <a href="#">🤖&nbsp;&nbsp;AI Integration <span class="tbc-note">TBC</span></a>
+        <a href="#">🚀&nbsp;&nbsp;Growth Marketing <span class="tbc-note">TBC</span></a>
+        <a href="#">✉️&nbsp;&nbsp;Email Marketing <span class="tbc-note">TBC</span></a>
+      </div>
+      <p style="font-size: 16px; color: #999;">Scroll ←→ to see all</p>
+    </div>
+    <div class="flex-container">
+      <div style="flex-grow: 1;"><iconify-icon icon="twemoji:money-bag" class="flex-emoji"></iconify-icon><h2>Over £4.2 million</h2>
+        <br>
+        <br>
+      <p>generated in pipeline value in 2022 for companies.</p></div>
+      <div style="flex-grow: 1;"><iconify-icon icon="twemoji:brain" class="flex-emoji"></iconify-icon><h2>11+ years</h2>
+        <br>
+        <br>
+        <p>experience working with sales & marketing teams.</p></div>
+      <div style="flex-grow: 1;"><iconify-icon icon="twemoji:globe-showing-europe-africa" class="flex-emoji"></iconify-icon><h2>Amazing community</h2>
+        <br>
+        <br>
+        <p>of partners across the world working together.</p></div>  
+    </div>
+</section>
+<footer>Built with <iconify-icon icon="twemoji:red-heart"></iconify-icon> by <span style="font-weight: 900;">HH</span></footer>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
